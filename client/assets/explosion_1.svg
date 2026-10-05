@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Explosion 1/6: initial flash -->
+  <path d="M98 64 L77.9 69.7 L88 88 L69.7 77.9 L64 98 L58.3 77.9 L40 88 L50.1 69.7 L30 64 L50.1 58.3 L40 40 L58.3 50.1 L64 30 L69.7 50.1 L88 40 L77.9 58.3Z" fill="#ffd23f" stroke="#f58a1f" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="17" fill="#fff3c2"/>
+  <circle cx="62" cy="62" r="10" fill="#ffffff"/>
+</svg>

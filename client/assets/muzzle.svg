@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 40 32">
+  <!-- Muzzle flash, points right (direction of fire). Anchor at the left-centre. -->
+  <path d="M3 16 L13 8 L16 2 L21 10 L37 16 L21 22 L16 30 L13 24Z" fill="#ffd23f" stroke="#f58a1f" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M8 16 L15 11.5 L17 7.5 L20.5 12.5 L30 16 L20.5 19.5 L17 24.5 L15 20.5Z" fill="#fff3c2"/>
+  <ellipse cx="15.5" cy="16" rx="5.5" ry="3.6" fill="#ffffff"/>
+</svg>

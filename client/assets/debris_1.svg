@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Hull debris shard 1 -->
+  <path d="M3 8 L14 3 L21 10 L15 21 L6 18Z" fill="#b9c4d2" stroke="#161b29" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M14 3 L21 10 L15 21 L11.5 12Z" fill="#7a879d"/>
+  <path d="M14 3 L21 10 L15 21 L6 18 L3 8Z" fill="none" stroke="#161b29" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M5.5 8.6 L13.2 5" stroke="#eef3f8" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

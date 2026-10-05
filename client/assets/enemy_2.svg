@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- STAR ARENA - "Brute" enemy gunship (faction: red). Armoured octagon, twin cannons. Nose up, light top-left. -->
+  <g fill="#161b29" stroke="#161b29" stroke-width="8" stroke-linejoin="round">
+    <rect x="16" y="28" width="12" height="46" rx="3"/>
+    <rect x="100" y="28" width="12" height="46" rx="3"/>
+    <rect x="42" y="92" width="10" height="13" rx="2"/>
+    <rect x="59" y="94" width="10" height="14" rx="2"/>
+    <rect x="76" y="92" width="10" height="13" rx="2"/>
+    <path d="M28 46 L34 44 L34 66 L28 64Z"/>
+    <path d="M100 46 L94 44 L94 66 L100 64Z"/>
+    <path d="M50 26 L78 26 L98 46 L98 78 L78 98 L50 98 L30 78 L30 46Z"/>
+  </g>
+  <!-- nozzles -->
+  <g stroke="#161b29" stroke-width="2.5">
+    <rect x="42" y="92" width="10" height="13" rx="2" fill="#5a6172"/>
+    <rect x="59" y="94" width="10" height="14" rx="2" fill="#4f5666"/>
+    <rect x="76" y="92" width="10" height="13" rx="2" fill="#454b5a"/>
+  </g>
+  <rect x="44.5" y="100" width="5" height="3.5" rx="1" fill="#22262f"/>
+  <rect x="61.5" y="102.5" width="5" height="3.5" rx="1" fill="#22262f"/>
+  <rect x="78.5" y="100" width="5" height="3.5" rx="1" fill="#22262f"/>
+  <!-- cannons -->
+  <g stroke="#161b29" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="16" y="28" width="12" height="46" rx="3" fill="#6b7387"/>
+    <rect x="100" y="28" width="12" height="46" rx="3" fill="#4a5163"/>
+    <path d="M16 31 Q16 28 19 28 L25 28 Q28 28 28 31 L28 36 L16 36Z" fill="#e0392f"/>
+    <path d="M100 31 Q100 28 103 28 L109 28 Q112 28 112 31 L112 36 L100 36Z" fill="#9b201b"/>
+    <path d="M28 46 L34 44 L34 66 L28 64Z" fill="#5a6172"/>
+    <path d="M100 46 L94 44 L94 66 L100 64Z" fill="#454b5a"/>
+  </g>
+  <path d="M19 40 L19 70" stroke="#c9d2de" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 52 L28 52 M16 60 L28 60 M100 52 L112 52 M100 60 L112 60" stroke="#161b29" stroke-width="1.5" opacity="0.5"/>
+  <!-- armoured hull -->
+  <path d="M64 26 L50 26 L30 46 L30 78 L50 98 L64 98Z" fill="#76829a"/>
+  <path d="M64 26 L78 26 L98 46 L98 78 L78 98 L64 98Z" fill="#4c566c"/>
+  <path d="M50 26 L78 26 L82 30.5 L46 30.5Z" fill="#e0392f"/>
+  <path d="M46 30.5 L64 30.5 L64 26 L50 26Z" fill="#ff6f5e"/>
+  <path d="M64 38 L54 38 L42 50 L42 74 L54 86 L64 86Z" fill="#33426a"/>
+  <path d="M64 38 L74 38 L86 50 L86 74 L74 86 L64 86Z" fill="#232e4d"/>
+  <path d="M54 38 L74 38 L86 50 L86 74 L74 86 L54 86 L42 74 L42 50Z" fill="none" stroke="#161b29" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M46 30.5 L82 30.5" stroke="#161b29" stroke-width="2"/>
+  <g fill="#161b29" opacity="0.55">
+    <circle cx="36" cy="50" r="1.4"/><circle cx="36" cy="74" r="1.4"/>
+    <circle cx="92" cy="50" r="1.4"/><circle cx="92" cy="74" r="1.4"/>
+    <circle cx="52" cy="93" r="1.4"/><circle cx="76" cy="93" r="1.4"/>
+  </g>
+  <path d="M51 28.5 L32.5 47 L32.5 76" stroke="#c9d2de" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M50 26 L78 26 L98 46 L98 78 L78 98 L50 98 L30 78 L30 46Z" fill="none" stroke="#161b29" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- bridge canopy -->
+  <path d="M56 42 L72 42 L69 54 L59 54Z" fill="#9b201b" stroke="#161b29" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M57.5 43.5 L64 43.5 L62 52.5 L59.8 52.5Z" fill="#e0392f"/>
+  <path d="M59 47 L60.2 44.6" stroke="#ffd2cc" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- reactor core -->
+  <circle cx="64" cy="70" r="8" fill="#22262f" stroke="#161b29" stroke-width="2.2"/>
+  <circle cx="64" cy="70" r="4.6" fill="#e0392f"/>
+  <circle cx="62.6" cy="68.6" r="1.5" fill="#ffd2cc"/>
+</svg>

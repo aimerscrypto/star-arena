@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- STAR ARENA - "Falcon" player fighter (faction: blue). Nose points up, light from top-left. -->
+  <!-- 1. silhouette: a fat dark stroke under everything gives the thick outer outline -->
+  <g fill="#161b29" stroke="#161b29" stroke-width="8" stroke-linejoin="round">
+    <path d="M51 54 L16 84 L14 98 L50 90Z"/>
+    <path d="M77 54 L112 84 L114 98 L78 90Z"/>
+    <rect x="52" y="98" width="10" height="16" rx="2"/>
+    <rect x="66" y="98" width="10" height="16" rx="2"/>
+    <path d="M64 8 C73 20 77 38 77 58 L79 92 L71 106 L57 106 L49 92 L51 58 C51 38 55 20 64 8Z"/>
+  </g>
+  <!-- 2. engine nozzles -->
+  <g stroke="#161b29" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="52" y="98" width="10" height="16" rx="2" fill="#5a6172"/>
+    <rect x="66" y="98" width="10" height="16" rx="2" fill="#454b5a"/>
+  </g>
+  <rect x="54.5" y="107" width="5" height="5" rx="1" fill="#22262f"/>
+  <rect x="68.5" y="107" width="5" height="5" rx="1" fill="#22262f"/>
+  <!-- 3. wings: lit (left) and shadow (right) -->
+  <g stroke="#161b29" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M51 54 L16 84 L14 98 L50 90Z" fill="#b9c4d2"/>
+    <path d="M77 54 L112 84 L114 98 L78 90Z" fill="#7a879d"/>
+  </g>
+  <path d="M50 81 L21 91 L15 97 L50 89.5Z" fill="#94a1b5"/>
+  <path d="M78 81 L107 91 L113 97 L78 89.5Z" fill="#636f86"/>
+  <g stroke="#161b29" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M16 84 L26 75.4 L24 95.8 L14 98Z" fill="#3d8ef0"/>
+    <path d="M112 84 L102 75.4 L104 95.8 L114 98Z" fill="#2462b8"/>
+    <rect x="31" y="60" width="5" height="17" rx="1.5" fill="#5a6172"/>
+    <rect x="92" y="60" width="5" height="17" rx="1.5" fill="#454b5a"/>
+  </g>
+  <path d="M48 58 L20 82" stroke="#eef3f8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M40 71 L39 91 M88 71 L89 91" stroke="#161b29" stroke-width="1.5" opacity="0.45"/>
+  <!-- 4. fuselage -->
+  <path d="M64 8 C55 20 51 38 51 58 L49 92 L57 106 L64 106Z" fill="#c3cdd9"/>
+  <path d="M64 8 C73 20 77 38 77 58 L79 92 L71 106 L64 106Z" fill="#8f9cb0"/>
+  <path d="M64 56 L57 63 L57 97 L64 101Z" fill="#33426a"/>
+  <path d="M64 56 L71 63 L71 97 L64 101Z" fill="#232e4d"/>
+  <path d="M51.2 60 L57 64 L57 72 L51 70Z" fill="#8cc8ff"/>
+  <path d="M76.8 60 L71 64 L71 72 L77 70Z" fill="#2f74d0"/>
+  <path d="M64 8 C60 13 57.6 19 56.6 25 L64 25Z" fill="#8cc8ff"/>
+  <path d="M64 8 C68 13 70.4 19 71.4 25 L64 25Z" fill="#3d8ef0"/>
+  <path d="M56.6 25 L71.4 25 M57 63 L64 56 L71 63 M57 97 L64 101 L71 97" stroke="#161b29" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M51.5 80 L57 80 M71 80 L77.5 80 M50.5 90 L57 90 M71 90 L78.5 90" stroke="#161b29" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="54" cy="85" r="1.1" fill="#161b29" opacity="0.5"/>
+  <circle cx="74" cy="85" r="1.1" fill="#161b29" opacity="0.5"/>
+  <path d="M62 13 C57 22 54 38 54 56" stroke="#f1f5f9" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M64 8 C73 20 77 38 77 58 L79 92 L71 106 L57 106 L49 92 L51 58 C51 38 55 20 64 8Z" fill="none" stroke="#161b29" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 5. cockpit glass with reflection -->
+  <ellipse cx="64" cy="42" rx="7.5" ry="13" fill="#1d3f6e" stroke="#161b29" stroke-width="2.5"/>
+  <path d="M64 30.5 C60 32.5 58.2 38 58.4 45 C60.6 40.5 62 35.5 64 30.5Z" fill="#3d86c6"/>
+  <path d="M60.6 36 Q61.4 32 64.4 30.8" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <circle cx="66.6" cy="48.5" r="1.4" fill="#9fdcff"/>
+</svg>

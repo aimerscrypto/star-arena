@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="48" viewBox="0 0 24 48">
+  <!-- Engine flame, frame 3 of 3 (short and wide, tip flicks left). -->
+  <path d="M3 2 L21 2 C21 12 17 22 10.5 34 C6 22 3 12 3 2Z" fill="#f58a1f" stroke="#7a2d0c" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M6.5 2 L17.5 2 C17.5 10 15 17 11 25 C8.5 17 6.5 10 6.5 2Z" fill="#ffd23f"/>
+  <path d="M9.2 2 L14.8 2 C14.8 7 13.6 12 11.6 16 C10.2 12 9.2 7 9.2 2Z" fill="#fff6d8"/>
+</svg>

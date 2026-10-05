@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: star-arena
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: BOT_COUNT
+        value: "40"

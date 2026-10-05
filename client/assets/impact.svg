@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <!-- Bullet impact spark (hit on a ship or meteor). -->
+  <path d="M20 2 L23.5 15 L34 8 L26 18.5 L38 21 L25.5 24 L31 35 L21.5 27 L18 38 L16 26.5 L5 32 L13 22.5 L2 18 L14 16 L8 6 L17.5 13.5Z" fill="#ffd23f" stroke="#f58a1f" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M20 9 L22 17 L28.5 14 L24.5 20 L31 21.5 L24 23 L26 28.5 L20.5 24.5 L18.5 30 L17.5 24 L11.5 26.5 L16 21.5 L9.5 18.5 L16.5 17.5 L13.5 12.5 L18.5 16Z" fill="#fff6d8"/>
+</svg>

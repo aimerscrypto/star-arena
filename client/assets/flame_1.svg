@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="48" viewBox="0 0 24 48">
+  <!-- Engine flame, frame 1 of 3. Attached at the top-centre to a nozzle; points down (backwards). -->
+  <path d="M4 2 L20 2 C20 14 17 26 12 40 C7 26 4 14 4 2Z" fill="#f58a1f" stroke="#7a2d0c" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M7 2 L17 2 C17 11 15 20 12 30 C9 20 7 11 7 2Z" fill="#ffd23f"/>
+  <path d="M9.5 2 L14.5 2 C14.5 8 13.5 14 12 19 C10.5 14 9.5 8 9.5 2Z" fill="#fff6d8"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Meteor variant 2 (elongated, dusty grey-brown). Body radius ~56 px. Light from top-left. -->
+  <path d="M30 22 L70 10 L104 22 L120 52 L112 86 L86 110 L50 116 L18 98 L8 64 L14 38Z" fill="#857a70"/>
+  <path d="M104 22 L120 52 L112 86 L86 110 L50 116 L18 98 C50 102 82 92 98 70 C106 58 106 40 104 22Z" fill="#615750"/>
+  <path d="M12 58 L16 38 L31 25 L68 14" stroke="#b3a89d" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <g stroke="#28221e" stroke-width="2.5">
+    <ellipse cx="76" cy="44" rx="16" ry="12" fill="#6c6259"/>
+    <ellipse cx="40" cy="70" rx="11" ry="9" fill="#6c6259"/>
+    <ellipse cx="80" cy="88" rx="7" ry="5.5" fill="#564d46"/>
+    <ellipse cx="44" cy="36" rx="5" ry="4" fill="#6c6259"/>
+  </g>
+  <ellipse cx="73.5" cy="41.5" rx="11.5" ry="8.5" fill="#4c433d"/>
+  <ellipse cx="38.5" cy="68" rx="7.5" ry="6" fill="#4c433d"/>
+  <ellipse cx="79" cy="87" rx="4.5" ry="3.5" fill="#433b35"/>
+  <ellipse cx="43.3" cy="35.3" rx="3" ry="2.4" fill="#4c433d"/>
+  <g stroke="#b3a89d" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <path d="M64 52 Q76 59 90 49"/>
+    <path d="M32 77 Q41 82 50 75"/>
+    <path d="M75 92 Q81 95 86 90"/>
+  </g>
+  <path d="M30 22 L70 10 L104 22 L120 52 L112 86 L86 110 L50 116 L18 98 L8 64 L14 38Z" fill="none" stroke="#28221e" stroke-width="5" stroke-linejoin="round"/>
+</svg>

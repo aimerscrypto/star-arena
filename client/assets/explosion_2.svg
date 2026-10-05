@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Explosion 2/6: fireball forming. Puffs share one outline (stroke pass, then fill pass). -->
+  <g fill="#5a1e0e" stroke="#5a1e0e" stroke-width="7">
+    <circle cx="64" cy="64" r="28"/><circle cx="46" cy="56" r="16"/><circle cx="80" cy="52" r="17"/>
+    <circle cx="78" cy="78" r="16"/><circle cx="50" cy="80" r="15"/><circle cx="64" cy="42" r="14"/>
+  </g>
+  <g fill="#ff8a1f">
+    <circle cx="64" cy="64" r="28"/><circle cx="46" cy="56" r="16"/><circle cx="80" cy="52" r="17"/>
+    <circle cx="78" cy="78" r="16"/><circle cx="50" cy="80" r="15"/><circle cx="64" cy="42" r="14"/>
+  </g>
+  <g fill="#e8501f">
+    <circle cx="76" cy="80" r="13"/><circle cx="86" cy="58" r="10"/><circle cx="56" cy="86" r="9"/>
+  </g>
+  <g fill="#ffd23f">
+    <circle cx="60" cy="60" r="18"/><circle cx="50" cy="53" r="10"/><circle cx="68" cy="48" r="10"/>
+  </g>
+  <circle cx="57" cy="57" r="8.5" fill="#fff6d8"/>
+</svg>

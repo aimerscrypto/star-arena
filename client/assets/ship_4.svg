@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- STAR ARENA - "Specter" flying wing (faction: purple). Nose up, light top-left. -->
+  <g fill="#161b29" stroke="#161b29" stroke-width="8" stroke-linejoin="round">
+    <rect x="45" y="86" width="12" height="16" rx="2.5"/>
+    <rect x="71" y="86" width="12" height="16" rx="2.5"/>
+    <path d="M64 10 L106 86 L94 100 L76 92 L64 102 L52 92 L34 100 L22 86Z"/>
+  </g>
+  <!-- nozzles -->
+  <g stroke="#161b29" stroke-width="2.5">
+    <rect x="45" y="86" width="12" height="16" rx="2.5" fill="#5a6172"/>
+    <rect x="71" y="86" width="12" height="16" rx="2.5" fill="#454b5a"/>
+  </g>
+  <rect x="48" y="95" width="6" height="5" rx="1" fill="#22262f"/>
+  <rect x="74" y="95" width="6" height="5" rx="1" fill="#22262f"/>
+  <!-- wing body, navy plating -->
+  <path d="M64 10 L22 86 L34 100 L52 92 L64 102Z" fill="#4a5d86"/>
+  <path d="M64 10 L106 86 L94 100 L76 92 L64 102Z" fill="#2a3658"/>
+  <path d="M40 76 L22 86 L34 100 L52 92Z" fill="#3c4d74"/>
+  <path d="M88 76 L106 86 L94 100 L76 92Z" fill="#222c4a"/>
+  <!-- leading-edge accent strips -->
+  <g stroke="#161b29" stroke-width="2" stroke-linejoin="round">
+    <path d="M60.5 19 L25.5 83 L30.5 86.5 L61.5 31Z" fill="#8d5ae8"/>
+    <path d="M67.5 19 L102.5 83 L97.5 86.5 L66.5 31Z" fill="#5e36a6"/>
+  </g>
+  <path d="M59.5 23 L28 80.5" stroke="#c9a5ff" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- steel spine -->
+  <path d="M64 10 L58 40 L60 96 L64 102Z" fill="#c3cdd9"/>
+  <path d="M64 10 L70 40 L68 96 L64 102Z" fill="#8f9cb0"/>
+  <path d="M64 10 L70 40 L68 96 L64 102 L60 96 L58 40Z" fill="none" stroke="#161b29" stroke-width="2" stroke-linejoin="round"/>
+  <!-- vents + panel lines -->
+  <g fill="#22262f" stroke="#161b29" stroke-width="1.2">
+    <rect x="38" y="66" width="10" height="3" rx="1"/>
+    <rect x="40" y="72" width="10" height="3" rx="1"/>
+    <rect x="80" y="66" width="10" height="3" rx="1"/>
+    <rect x="78" y="72" width="10" height="3" rx="1"/>
+  </g>
+  <path d="M58 62 L36 88 M70 62 L92 88 M59.5 80 L61 80 M67 80 L68.5 80" stroke="#161b29" stroke-width="1.5" opacity="0.45"/>
+  <path d="M62.5 15 L24.5 84" stroke="#8ea3cf" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M62 16 L59.6 40" stroke="#f1f5f9" stroke-width="2" stroke-linecap="round"/>
+  <path d="M64 10 L106 86 L94 100 L76 92 L64 102 L52 92 L34 100 L22 86Z" fill="none" stroke="#161b29" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- cockpit -->
+  <path d="M64 30 L70 45 L64 58 L58 45Z" fill="#1d3f6e" stroke="#161b29" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M64 32.5 L59.6 45 L62 45 L64 38Z" fill="#3d86c6"/>
+  <path d="M60.8 41.5 L63.6 35" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round"/>
+  <circle cx="65.6" cy="50" r="1.2" fill="#9fdcff"/>
+</svg>

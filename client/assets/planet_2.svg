@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <!-- Distant cratered moon (background). Light from top-left. -->
+  <defs>
+    <clipPath id="p2"><circle cx="80" cy="80" r="64"/></clipPath>
+  </defs>
+  <circle cx="80" cy="80" r="64" fill="#46536d"/>
+  <g clip-path="url(#p2)">
+    <circle cx="70" cy="70" r="64" fill="#62728f"/>
+    <g stroke="#232a3a" stroke-width="2">
+      <ellipse cx="56" cy="52" rx="13" ry="10" fill="#55647f"/>
+      <ellipse cx="94" cy="66" rx="9" ry="7" fill="#55647f"/>
+      <ellipse cx="66" cy="98" rx="11" ry="8" fill="#4b5873"/>
+      <ellipse cx="100" cy="104" rx="6" ry="5" fill="#4b5873"/>
+      <ellipse cx="36" cy="82" rx="6" ry="5" fill="#55647f"/>
+    </g>
+    <g fill="#3b4660">
+      <ellipse cx="54" cy="50" rx="9" ry="7"/><ellipse cx="92.5" cy="64.5" rx="6" ry="4.6"/>
+      <ellipse cx="64" cy="96.5" rx="7.5" ry="5.4"/><ellipse cx="99" cy="103" rx="3.8" ry="3"/><ellipse cx="35" cy="81" rx="3.8" ry="3"/>
+    </g>
+    <g stroke="#8797b4" stroke-width="2" stroke-linecap="round" fill="none">
+      <path d="M45 58 Q56 64 68 55"/><path d="M87 71 Q95 75 102 68"/><path d="M57 104 Q67 109 76 101"/>
+    </g>
+    <path fill-rule="evenodd" fill="#151a28" opacity="0.7"
+      d="M16 80 A64 64 0 1 0 144 80 A64 64 0 1 0 16 80Z M2 66 A68 68 0 1 0 138 66 A68 68 0 1 0 2 66Z"/>
+    <path d="M28 66 A54 54 0 0 1 58 30" stroke="#a5b3cc" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  <circle cx="80" cy="80" r="64" fill="none" stroke="#0e1020" stroke-width="4.5"/>
+</svg>

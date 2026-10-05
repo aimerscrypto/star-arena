@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Hull debris shard 2 (long strip with panel line) -->
+  <path d="M2 14 L18 3 L22 7 L6 21Z" fill="#8f9cb0" stroke="#161b29" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 12 L20 5 L22 7 L6 21 L4 19Z" fill="#636f86"/>
+  <path d="M2 14 L18 3 L22 7 L6 21Z" fill="none" stroke="#161b29" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M9 12.5 L12.5 16" stroke="#161b29" stroke-width="1.2" opacity="0.6"/>
+  <path d="M4.5 13.6 L16.8 5.2" stroke="#dfe6ee" stroke-width="1.4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Explosion 5/6: smoke cloud with dying embers -->
+  <g fill="#262a35" stroke="#262a35" stroke-width="6">
+    <circle cx="64" cy="60" r="30"/><circle cx="36" cy="46" r="20"/><circle cx="92" cy="44" r="20"/>
+    <circle cx="94" cy="84" r="19"/><circle cx="36" cy="88" r="19"/><circle cx="66" cy="96" r="15"/><circle cx="64" cy="26" r="14"/>
+  </g>
+  <g fill="#555a67">
+    <circle cx="64" cy="60" r="30"/><circle cx="36" cy="46" r="20"/><circle cx="92" cy="44" r="20"/>
+    <circle cx="94" cy="84" r="19"/><circle cx="36" cy="88" r="19"/><circle cx="66" cy="96" r="15"/><circle cx="64" cy="26" r="14"/>
+  </g>
+  <g fill="#767c8a">
+    <circle cx="58" cy="54" r="24"/><circle cx="32" cy="42" r="14"/><circle cx="88" cy="40" r="14"/>
+    <circle cx="90" cy="80" r="12"/><circle cx="32" cy="84" r="13"/><circle cx="61" cy="22" r="9"/>
+  </g>
+  <g fill="#9aa0ad">
+    <circle cx="50" cy="46" r="9"/><circle cx="28" cy="38" r="6"/><circle cx="84" cy="36" r="6"/><circle cx="29" cy="80" r="5"/>
+  </g>
+  <g stroke="#5a1e0e" stroke-width="2.5">
+    <circle cx="62" cy="66" r="6" fill="#ff8a1f"/><circle cx="76" cy="58" r="4.5" fill="#ff8a1f"/><circle cx="48" cy="74" r="3.5" fill="#ff8a1f"/>
+  </g>
+  <circle cx="61" cy="65" r="2.6" fill="#ffd23f"/>
+  <circle cx="75.4" cy="57.4" r="1.8" fill="#ffd23f"/>
+</svg>

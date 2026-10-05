@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- STAR ARENA - "Raider" enemy (faction: red). Claw prongs + sensor eye. Nose up, light top-left. -->
+  <g fill="#161b29" stroke="#161b29" stroke-width="8" stroke-linejoin="round">
+    <path d="M48 66 L16 80 L18 94 L50 86Z"/>
+    <path d="M80 66 L112 80 L110 94 L78 86Z"/>
+    <path d="M52 46 L42 10 L34 14 L36 64Z"/>
+    <path d="M76 46 L86 10 L94 14 L92 64Z"/>
+    <rect x="53" y="94" width="9" height="14" rx="2"/>
+    <rect x="66" y="94" width="9" height="14" rx="2"/>
+    <path d="M64 28 L78 42 L80 84 L70 100 L58 100 L48 84 L50 42Z"/>
+  </g>
+  <g stroke="#161b29" stroke-width="2.5">
+    <rect x="53" y="94" width="9" height="14" rx="2" fill="#5a6172"/>
+    <rect x="66" y="94" width="9" height="14" rx="2" fill="#454b5a"/>
+  </g>
+  <rect x="55.5" y="102" width="4" height="4" rx="1" fill="#22262f"/>
+  <rect x="68.5" y="102" width="4" height="4" rx="1" fill="#22262f"/>
+  <!-- side wings -->
+  <g stroke="#161b29" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M48 66 L16 80 L18 94 L50 86Z" fill="#8f9cb0"/>
+    <path d="M80 66 L112 80 L110 94 L78 86Z" fill="#5d687e"/>
+    <path d="M18.5 84.5 L48.6 73.5 L49.2 78.5 L19 89.5Z" fill="#e0392f"/>
+    <path d="M109.5 84.5 L79.4 73.5 L78.8 78.5 L109 89.5Z" fill="#9b201b"/>
+  </g>
+  <path d="M46 69 L19 81" stroke="#d3dbe5" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- claw prongs -->
+  <g stroke="#161b29" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M52 46 L42 10 L34 14 L36 64Z" fill="#8f9cb0"/>
+    <path d="M76 46 L86 10 L94 14 L92 64Z" fill="#5d687e"/>
+    <path d="M42 10 L34 14 L34.5 26 L45.3 22Z" fill="#e0392f"/>
+    <path d="M86 10 L94 14 L93.5 26 L82.7 22Z" fill="#9b201b"/>
+  </g>
+  <path d="M36.5 28 L37.5 58" stroke="#d3dbe5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M38 40 L48 42 M90 40 L80 42" stroke="#161b29" stroke-width="1.5" opacity="0.5"/>
+  <!-- hull: darker gunmetal than player ships -->
+  <path d="M64 28 L50 42 L48 84 L58 100 L64 100Z" fill="#76829a"/>
+  <path d="M64 28 L78 42 L80 84 L70 100 L64 100Z" fill="#4c566c"/>
+  <path d="M64 62 L54 67 L54 88 L64 94Z" fill="#33426a"/>
+  <path d="M64 62 L74 67 L74 88 L64 94Z" fill="#232e4d"/>
+  <path d="M54 67 L64 62 L74 67 M54 88 L64 94 L74 88" stroke="#161b29" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <path d="M49 76 L54 76 M74 76 L79 76" stroke="#161b29" stroke-width="1.5" opacity="0.5"/>
+  <path d="M62.5 31.5 L52 42.5 L50.5 80" stroke="#c9d2de" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M64 28 L78 42 L80 84 L70 100 L58 100 L48 84 L50 42Z" fill="none" stroke="#161b29" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- sensor eye -->
+  <circle cx="64" cy="50" r="7.5" fill="#9b201b" stroke="#161b29" stroke-width="2.5"/>
+  <circle cx="64" cy="50" r="4.6" fill="#e0392f"/>
+  <path d="M60.5 48.5 Q61.5 45.5 64.5 45" stroke="#ffd2cc" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+</svg>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star Arena</title>
+  <meta name="description" content="Star Arena - multiplayer 2D space combat in the browser">
+  <link rel="icon" href="assets/ship_1.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700&family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="stage"></div>
+  <div id="vignette"></div>
+
+  <!-- In-game HUD -->
+  <div id="hud">
+    <section id="stats" class="panel">
+      <header><span>Server stats</span><kbd>Tab</kbd></header>
+      <div class="row"><span>Ping</span><b id="sPing">-</b></div>
+      <div class="row"><span>Players online</span><b id="sPlayers">-</b></div>
+      <div class="row"><span>Bots</span><b id="sBots">-</b></div>
+      <div class="row"><span>Server tick</span><b id="sTick">-</b></div>
+      <div class="bar"><i id="sTickBar"></i></div>
+      <div class="row sub"><span>sim / interest / send</span><b id="sBreak">-</b></div>
+      <canvas id="sSpark" width="220" height="34"></canvas>
+      <div class="row"><span>Bandwidth / player</span><b id="sBw">-</b></div>
+      <div class="sep"></div>
+      <div class="row"><span>Your download</span><b id="sDown">-</b></div>
+      <div class="row"><span>In your interest area</span><b id="sAoi">-</b></div>
+      <div class="row"><span>Snapshots</span><b id="sSnap">-</b></div>
+      <div class="row"><span>Render FPS</span><b id="sFps">-</b></div>
+      <div class="foot">Authoritative 20 Hz server &middot; binary snapshots &middot; spatial grid AOI &middot; lag compensation</div>
+    </section>
+
+    <section id="leaderboard" class="panel">
+      <header><span>Leaderboard</span><small>Kills</small></header>
+      <ol id="lbList"></ol>
+      <div id="myRank"></div>
+    </section>
+
+    <div id="killfeed"></div>
+
+    <div id="player">
+      <div class="pTop">
+        <img id="pShip" src="assets/ship_1.svg" alt="">
+        <span id="pName">Pilot</span>
+        <span id="pShield" class="shieldChip hidden">Shield</span>
+      </div>
+      <div class="hp"><div id="hpFill"></div><span id="hpText">100</span></div>
+      <div class="chips">
+        <span>Kills <b id="kKills">0</b></span>
+        <span>Deaths <b id="kDeaths">0</b></span>
+        <span>Rank <b id="kRank">-</b></span>
+      </div>
+    </div>
+
+    <div id="minimapWrap" class="panel">
+      <canvas id="minimap" width="180" height="180"></canvas>
+      <div class="mmLabel"><i class="aoiKey"></i> Your interest area (server-side)</div>
+    </div>
+
+    <div id="hint">
+      <kbd>WASD</kbd> move <kbd>Mouse</kbd> aim <kbd>Click</kbd> fire <kbd>Tab</kbd> stats <kbd>M</kbd> <span id="muteState">sound on</span>
+    </div>
+  </div>
+
+  <!-- Death overlay -->
+  <div id="death" class="hidden">
+    <div class="deathCard">
+      <div class="deathTitle">Destroyed</div>
+      <div class="deathBy">by <b id="killerName">-</b></div>
+      <div class="deathCount">Respawning in <b id="respawnIn">3</b></div>
+    </div>
+  </div>
+
+  <!-- Main menu (the live battle runs behind it) -->
+  <div id="menu">
+    <div class="menuInner">
+      <div class="logo"><span class="l1">STAR</span><span class="l2">ARENA</span></div>
+      <div class="subtitle">Multiplayer space combat</div>
+      <div class="live"><i class="dot"></i><span id="liveCount">Connecting to server&hellip;</span></div>
+
+      <div class="card">
+        <div class="cardLabel">Choose your ship</div>
+        <div id="shipPicker"></div>
+        <form id="joinForm" autocomplete="off">
+          <input id="nameInput" maxlength="16" placeholder="Enter pilot name" spellcheck="false">
+          <button id="playBtn" type="submit" disabled>Loading&hellip;</button>
+        </form>
+        <div class="controls">
+          <span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> Move</span>
+          <span><kbd>Mouse</kbd> Aim</span>
+          <span><kbd>Click</kbd> Fire</span>
+          <span><kbd>Tab</kbd> Stats</span>
+          <span><kbd>M</kbd> Mute</span>
+        </div>
+      </div>
+      <div class="tech">Authoritative 20 Hz server &middot; spatial-grid interest management &middot; client prediction &amp; lag compensation</div>
+    </div>
+  </div>
+
+  <div id="conn" class="hidden">Connection lost &mdash; reconnecting&hellip;</div>
+
+  <script src="vendor/pixi.min.js"></script>
+  <script src="/shared/shared.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

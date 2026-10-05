@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Distant ringed gas giant (background). Light from top-left. -->
+  <defs>
+    <clipPath id="p1"><circle cx="128" cy="128" r="72"/></clipPath>
+  </defs>
+  <!-- ring, back half -->
+  <g transform="rotate(-18 128 128)" fill="none">
+    <path d="M10 128 A118 30 0 0 1 246 128" stroke="#0e1020" stroke-width="16"/>
+    <path d="M10 128 A118 30 0 0 1 246 128" stroke="#5a5086" stroke-width="10"/>
+    <path d="M18 128 A110 26 0 0 1 238 128" stroke="#7a70a8" stroke-width="2.5"/>
+  </g>
+  <!-- planet body -->
+  <circle cx="128" cy="128" r="72" fill="#3d3068"/>
+  <g clip-path="url(#p1)">
+    <circle cx="116" cy="114" r="72" fill="#55468a"/>
+    <g transform="rotate(-18 128 128)">
+      <rect x="40" y="88" width="176" height="9" fill="#6a59a2"/>
+      <rect x="40" y="108" width="176" height="5" fill="#463978"/>
+      <rect x="40" y="124" width="176" height="13" fill="#6a59a2" opacity="0.8"/>
+      <rect x="40" y="150" width="176" height="6" fill="#463978"/>
+      <rect x="40" y="166" width="176" height="10" fill="#5f4f96" opacity="0.8"/>
+      <ellipse cx="150" cy="142" rx="14" ry="7" fill="#7b68b4" stroke="#2c2350" stroke-width="2"/>
+    </g>
+    <!-- night side crescent -->
+    <path fill-rule="evenodd" fill="#1a1436" opacity="0.72"
+      d="M56 128 A72 72 0 1 0 200 128 A72 72 0 1 0 56 128Z M38 108 A76 76 0 1 0 190 108 A76 76 0 1 0 38 108Z"/>
+    <path d="M70 104 A62 62 0 0 1 104 68" stroke="#9a8cd2" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </g>
+  <circle cx="128" cy="128" r="72" fill="none" stroke="#0e1020" stroke-width="5"/>
+  <!-- ring, front half -->
+  <g transform="rotate(-18 128 128)" fill="none">
+    <path d="M10 128 A118 30 0 0 0 246 128" stroke="#0e1020" stroke-width="16"/>
+    <path d="M10 128 A118 30 0 0 0 246 128" stroke="#6d6299" stroke-width="10"/>
+    <path d="M18 128 A110 26 0 0 0 238 128" stroke="#8c82bb" stroke-width="2.5"/>
+  </g>
+</svg>

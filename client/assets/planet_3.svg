@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Distant icy world with polar cap (background). Light from top-left. -->
+  <defs>
+    <clipPath id="p3"><circle cx="64" cy="64" r="50"/></clipPath>
+  </defs>
+  <circle cx="64" cy="64" r="50" fill="#21535c"/>
+  <g clip-path="url(#p3)">
+    <circle cx="56" cy="56" r="50" fill="#337a84"/>
+    <path d="M10 30 Q40 22 64 28 Q92 34 120 24 L120 0 L10 0Z" fill="#cfe8ec"/>
+    <path d="M10 33 Q40 25 64 31 Q92 37 120 27" stroke="#9fc8cf" stroke-width="3" fill="none"/>
+    <path d="M14 70 Q40 62 70 72 Q96 80 118 70" stroke="#2a6670" stroke-width="7" fill="none"/>
+    <path d="M18 88 Q46 82 76 92 Q98 98 116 90" stroke="#3f8c96" stroke-width="5" fill="none"/>
+    <g stroke="#173d44" stroke-width="1.8">
+      <ellipse cx="44" cy="54" rx="7" ry="5.5" fill="#2e6e78"/>
+      <ellipse cx="78" cy="84" rx="5" ry="4" fill="#2e6e78"/>
+    </g>
+    <ellipse cx="42.8" cy="52.8" rx="4.6" ry="3.6" fill="#21535c"/>
+    <ellipse cx="77.2" cy="83" rx="3.2" ry="2.5" fill="#21535c"/>
+    <path fill-rule="evenodd" fill="#0f2428" opacity="0.7"
+      d="M14 64 A50 50 0 1 0 114 64 A50 50 0 1 0 14 64Z M2 52 A54 54 0 1 0 110 52 A54 54 0 1 0 2 52Z"/>
+    <path d="M22 58 A42 42 0 0 1 46 26" stroke="#e6f5f7" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <circle cx="64" cy="64" r="50" fill="none" stroke="#0e1020" stroke-width="4"/>
+</svg>
